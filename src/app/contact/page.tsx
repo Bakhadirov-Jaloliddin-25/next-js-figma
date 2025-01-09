@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Contact = () => {
   return (
@@ -28,7 +28,7 @@ const Contact = () => {
           />
           <button
             type="submit"
-            className="bg-pink-500 text-white px-[25px] py-[29px] rounded-r hover:bg-pink-600 transition"
+            className="bg-pink-500 text-white px-[25px] py-[29px] rounded-r hover:bg-pink-600 transition duration-300"
           >
             Send
           </button>
@@ -36,6 +36,6 @@ const Contact = () => {
       </form>
     </div>
   );
-}
+};
 
-export default Contact
+export default Contact;

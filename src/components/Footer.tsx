@@ -1,10 +1,10 @@
-import React from 'react'
-import footerLogo from "@/assets/footerlogo.svg"
-import social from "@/assets/socialgroup.svg"
-import p from "@/assets/p.svg"
-import master from "@/assets/master.svg"
+import React from "react";
+import footerLogo from "@/assets/footerlogo.svg";
+import social from "@/assets/socialgroup.svg";
+import p from "@/assets/p.svg";
+import master from "@/assets/master.svg";
 import visa from "@/assets/visa.svg";
-import Image from 'next/image'
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -73,11 +73,11 @@ const Footer = () => {
                 id=""
                 placeholder="Your Email"
               />
-              <button className="text-[20px] leading-[23px] text-[#FFFFFF] bg-btnprimary rounded-[5px] px-[17px] py-[16px]">
+              <button className="text-[20px] leading-[23px] text-[#FFFFFF] bg-btnprimary border-[2px] border-btnprimary rounded-[5px] px-[17px] py-[16px] hover:border-[2px] hover:border-btnprimary hover:bg-btnhover hover:text-btnprimary duration-300">
                 Subscribe
               </button>
             </div>
-            <div className='mt-[17px] flex gap-[15px]'>
+            <div className="mt-[17px] flex gap-[15px]">
               <Image alt="" src={p} />
               <Image alt="" src={master} />
               <Image alt="" src={visa} />
@@ -87,6 +87,6 @@ const Footer = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Footer
+export default Footer;

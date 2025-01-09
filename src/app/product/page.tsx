@@ -7,7 +7,7 @@ import product4 from "@/assets/product4.png";
 import bigwoman from "@/assets/bghuman.svg";
 import smallwoman from "@/assets/smallwoman.svg";
 import smallman from "@/assets/smallman.svg";
-import larrow from "@/assets/arrow.svg"
+import larrow from "@/assets/arrow.svg";
 import rarrow from "@/assets/rarrow.svg";
 import Image from "next/image";
 
@@ -65,7 +65,7 @@ const Product = () => {
                 $22.55
               </span>
             </p>
-            <button className="mt-[10px] bg-btnprimary py-[14px] px-[50px] text-[#FAFAFA] rounded-[5px] font-medium leading-[22px] hover:border-[2px] hover:border-btnprimary hover:bg-btnhover hover:text-btnprimary">
+            <button className="bg-btnprimary border-[2px] border-btnprimary py-[14px] px-[50px] text-[#FAFAFA] rounded-[5px] font-bold leading-[22px] hover:border-[2px] hover:border-btnprimary hover:bg-btnhover hover:text-btnprimary duration-300">
               Buy Now
             </button>
           </div>
@@ -86,7 +86,7 @@ const Product = () => {
                 $22.55
               </span>
             </p>
-            <button className="mt-[10px] bg-btnprimary py-[14px] px-[50px] text-[#FAFAFA] rounded-[5px] font-medium leading-[22px] hover:border-[2px] hover:border-btnprimary hover:bg-btnhover hover:text-btnprimary">
+            <button className="bg-btnprimary border-[2px] border-btnprimary py-[14px] px-[50px] text-[#FAFAFA] rounded-[5px] font-bold leading-[22px] hover:border-[2px] hover:border-btnprimary hover:bg-btnhover hover:text-btnprimary duration-300">
               Buy Now
             </button>
           </div>
@@ -113,7 +113,7 @@ const Product = () => {
                 $22.55
               </span>
             </p>
-            <button className="mt-[10px] bg-btnprimary py-[14px] px-[50px] text-[#FAFAFA] rounded-[5px] font-medium leading-[22px] hover:border-[2px] hover:border-btnprimary hover:bg-btnhover hover:text-btnprimary">
+            <button className="bg-btnprimary border-[2px] border-btnprimary py-[14px] px-[50px] text-[#FAFAFA] rounded-[5px] font-bold leading-[22px] hover:border-[2px] hover:border-btnprimary hover:bg-btnhover hover:text-btnprimary duration-300">
               Buy Now
             </button>
           </div>

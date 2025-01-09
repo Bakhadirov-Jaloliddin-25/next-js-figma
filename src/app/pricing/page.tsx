@@ -1,16 +1,15 @@
-import React from 'react'
-import car from "@/assets/car.svg"
+import React from "react";
+import car from "@/assets/car.svg";
 import group from "@/assets/group.svg";
-import cash_back from "@/assets/cash-back.svg"
+import cash_back from "@/assets/cash-back.svg";
 import fast_delivery from "@/assets/fast-delivery.svg";
-import phone from "@/assets/phone.png"
-import price1 from "@/assets/price1.svg"
-import price2 from "@/assets/price1.svg"
+import phone from "@/assets/phone.png";
+import price1 from "@/assets/price1.svg";
+import price2 from "@/assets/price1.svg";
 import price3 from "@/assets/price3.svg";
-import google from "@/assets/google.svg"
+import google from "@/assets/google.svg";
 import apple from "@/assets/apple.svg";
-import Image from 'next/image';
-
+import Image from "next/image";
 
 const state = [
   {
@@ -43,7 +42,7 @@ const Pricing = () => {
           {state?.map((data) => (
             <div
               key={data.id}
-              className="flex flex-col items-center justify-center text-center px-[26px] pt-[33px] pb-[27px] hover:shadow-xl"
+              className="flex flex-col items-center justify-center text-center px-[26px] pt-[33px] pb-[27px] rounded-lg cursor-pointer hover:shadow-xl duration-300"
             >
               <Image src={data.img} alt="" />
               <h2 className="font-semibold text-[20px] leading-[28px] mt-[25px]">
@@ -82,7 +81,7 @@ const Pricing = () => {
               <Image alt="" src={price3} />
               <p>Order Your Food</p>
             </div>
-            <div className='flex items-center gap-[7px] mt-[41px]'>
+            <div className="flex items-center gap-[7px] mt-[41px]">
               <Image alt="" src={google} />
               <Image alt="" src={apple} />
             </div>
@@ -91,6 +90,6 @@ const Pricing = () => {
       </div>
     </>
   );
-}
+};
 
-export default Pricing
+export default Pricing;
